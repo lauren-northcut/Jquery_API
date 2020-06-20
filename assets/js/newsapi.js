@@ -19,7 +19,7 @@ $("#newsUS").on("click", function() {
  
   alert("I work")
  const the_key = "oFQdE3yr3rTHfKMq8jpAAfo2eZhEcUnS";
- const theCall = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + the_key + "&limit=5";
+ const theCall = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=" + the_key + "&limit=5";
 
  $.ajax({
   url: theCall,
