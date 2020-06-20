@@ -27,6 +27,7 @@
        url: query_me,
        method: "GET"
      }).then(function(response) {
+      $("#So").empty(); 
     // var td = ("<td>")
        console.log(response)
 
