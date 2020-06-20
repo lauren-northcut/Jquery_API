@@ -51,7 +51,9 @@ footer {
     text-align: center;
 }
 
-
+.card {
+    background-color: transparent;
+}
 
 
 /* Re-Usable Variables */
