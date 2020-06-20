@@ -1,0 +1,61 @@
+
+
+#main {
+    background-image: url("../bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#bot {
+    background-color: transparent;
+}
+
+nav {
+    background-color: white;
+}
+
+#top2 {
+    background-image: url("../768f3747fc22d2d1690923db8a6f3377.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+
+}
+
+
+
+#top, #top2 ,#middle, #bottom{
+    padding-top: 6rem;
+    /* padding-bottom: 5rem; */
+}
+
+
+#So {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#title {
+    justify-content: end;
+}
+footer {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+/* Re-Usable Variables */
+
+.nope {
+    visibility: hidden;
+}
