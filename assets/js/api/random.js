@@ -49,8 +49,23 @@ $('#eat').click( function() {
 });
 
 $("#clear").click(function(){
+   
     $("#advice").empty();
     $("#advice2").empty();
     $("#advice3").empty();
-    $("#advice4").empty()
+    $("#advice4").empty();
+   
+
+});
+$('#search').click( function() {
+    var look = $("#input").val()
+    $.getJSON("https://api.adviceslip.com/advice/search/" + look , function( data )
+     {
+      
+    // $('#advice2').append("<li>" +  data.slips[0].advice +"</li>")
+    for (i = 0; i < data.slips.length; i ++){
+        $('#advice3').append("<li>" +  data.slips[i].advice +"</li>")
+       }
+   
+    });
 });
